@@ -1,132 +1,41 @@
-# Sistema de Verificação Pré-Decolagem 🚀
+# 🚀 Missão Aurora Siger
 
-Projeto acadêmico desenvolvido em Python para simular a análise de telemetria de uma nave espacial antes da decolagem.
+### Projeto Integrador | Ciência da Computação - FIAP
 
-O sistema verifica parâmetros de segurança, identifica falhas, calcula a energia disponível e estima a autonomia após a decolagem.
+## Sobre o projeto
 
-> Todos os valores, limites e condições utilizados são fictícios e possuem finalidade exclusivamente acadêmica.
+A **Missão Aurora Siger** é um projeto acadêmico de desenvolvimento progressivo de sistemas computacionais aplicados à exploração espacial e ao estabelecimento de uma base humana em Marte.
 
-## Objetivos
+O projeto é desenvolvido em fases, integrando fundamentos de Ciência da Computação, programação, estruturas de dados, algoritmos, modelagem matemática e princípios de sustentabilidade e governança.
 
-O projeto contempla:
+Cada fase apresenta novos desafios e funcionalidades, permitindo a evolução dos conhecimentos técnicos ao longo da graduação.
 
-- organização e descrição de dados de telemetria;
-- verificação automática das condições pré-decolagem;
-- identificação de possíveis falhas;
-- cálculo de energia disponível;
-- estimativa de autonomia;
-- análise assistida por inteligência artificial;
-- reflexão sobre ética, impacto social e sustentabilidade tecnológica.
+## Fases do projeto
 
-## Dados analisados
+### Fase 1 - Sistema de Verificação Pré-Decolagem
 
-Os parâmetros simulados são:
+**Status:** Concluída
 
-- temperatura interna;
-- temperatura externa;
-- integridade estrutural;
-- nível de energia;
-- pressão do tanque;
-- módulo de propulsão;
-- módulo de navegação;
-- módulo de comunicação;
-- módulo de suporte à vida.
+Simulação de telemetria espacial, verificação de parâmetros de segurança, identificação de falhas e análise de consumo energético.
 
-Os módulos e a integridade estrutural utilizam representação binária:
+**Tecnologias:** Python e Google Colab/Jupyter Notebook.
 
-- `1` = funcionamento adequado;
-- `0` = falha.
+[Explorar Fase 1](./fase_01_pre_decolagem/)
 
-## Regras de segurança
+### Fase 2 - Módulo de Gerenciamento de Pouso e Estabilização de Base (MGPEB)
 
-| Parâmetro | Condição segura |
-|---|---|
-| Temperatura interna | 18 °C a 27 °C |
-| Temperatura externa | -20 °C a 50 °C |
-| Integridade estrutural | Deve ser 1 |
-| Nível de energia | Mínimo de 70% |
-| Pressão do tanque | 200 a 300 bar |
-| Propulsão | Deve ser 1 |
-| Navegação | Deve ser 1 |
-| Comunicação | Deve ser 1 |
-| Suporte à vida | Deve ser 1 |
+**Status:** Em desenvolvimento
 
-Se todos os parâmetros estiverem dentro das condições estabelecidas, o sistema retorna:
+Simulação do gerenciamento de pouso de módulos destinados à colônia marciana, utilizando estruturas lineares, algoritmos de busca e ordenação, lógica booleana e modelagem matemática.
 
-`PRONTO PARA DECOLAR`
+**Tecnologias:** Python e VS Code.
 
-Caso uma ou mais verificações falhem, o resultado é:
+[Explorar Fase 2](./fase_02_mgpeb/)
 
-`DECOLAGEM ABORTADA`
+## Tecnologias e conceitos
 
-O programa também lista as falhas encontradas.
+O projeto utiliza tecnologias e conceitos de acordo com os requisitos de cada fase, incluindo Python, algoritmos, estruturas de dados, lógica computacional e simulações matemáticas.
 
-## Análise energética
+## Observações
 
-A simulação utiliza:
-
-- capacidade total: 500 kWh;
-- carga atual: 87%;
-- consumo de decolagem: 120 kWh;
-- perdas energéticas: 5%;
-- consumo médio de voo: 50 kWh/h.
-
-Com esses valores, após as perdas e o consumo de decolagem, restam aproximadamente **293,25 kWh**, equivalentes a **58,65%** da capacidade total.
-
-A autonomia estimada é de aproximadamente **5,87 horas**.
-
-## Prints da execução
-
-### Cenário seguro
-
-![Execução do cenário seguro](images/execucao_cenario_seguro.png)
-
-### Cenário com falha
-
-![Execução do cenário com falha](images/execucao_cenario_falha.png)
-
-## Arquivos do projeto
-
-```text
-.
-├── README.md
-├── telemetria_espacial.ipynb
-└── images
-    ├── execucao_cenario_seguro.png
-    └── execucao_cenario_falha.png
-```
-
-## Como executar
-
-### Opção 1 — Google Colab
-
-1. Faça o download do arquivo `telemetria_espacial.ipynb`.
-2. Acesse o Google Colab.
-3. Selecione **Arquivo > Fazer upload de notebook**.
-4. Escolha o arquivo `.ipynb`.
-5. Execute as células na ordem apresentada.
-
-### Opção 2 — Jupyter Notebook
-
-Com Python e Jupyter instalados, clone ou baixe este repositório e execute:
-
-```bash
-jupyter notebook
-```
-
-Depois, abra o arquivo:
-
-```text
-telemetria_espacial.ipynb
-```
-
-e execute as células na sequência.
-
-## Tecnologias utilizadas
-
-- Python 3
-- Jupyter Notebook
-
-## Observação
-
-Este projeto foi desenvolvido como atividade acadêmica. Os parâmetros de telemetria, faixas de segurança e valores energéticos não representam especificações reais de sistemas aeroespaciais.
+Este é um projeto acadêmico desenvolvido para fins educacionais. Os cenários, parâmetros técnicos e regras operacionais são simulados e não representam especificações certificadas de sistemas aeroespaciais.
