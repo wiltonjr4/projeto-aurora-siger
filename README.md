@@ -35,6 +35,17 @@ Implementações centrais:
 - **Tecnologias:** Python, biblioteca padrão.
 - **Acesse:** [Documentação e código da Fase 2](fase_02_mgpeb/)
 
+### Fase 3 | SIGIC: Sistema Integrado de Gestão Inteligente da Colônia
+
+**Status: concluída.**
+
+Simula o monitoramento energético de uma colônia marciana após os pousos da Fase 2, integrando dados hierárquicos, regressão linear simples para estimativa de geração eólica, regras de decisão, prioridades de suporte à vida, balanço entre geração, consumo e bateria, além de 21 testes automatizados.
+
+- **Tecnologias:** Python (biblioteca padrão), listas, dicionários, funções, condições e mínimos quadrados.
+- **Acesse:** [Fase 3: documentação e código](fase_03_sistema_integrado_colonia/)
+- **Execução:** entre na pasta da Fase 03 e rode `python main.py todos`.
+- **Testes:** `python -m unittest discover -s tests -v`.
+
 ### Rodar a Fase 2
 
 ```bash
@@ -59,6 +70,7 @@ A Fase 2 não exige dependências de terceiros. Para informações completas sob
 | Algoritmos | Busca linear e ordenação Bubble Sort |
 | Modelagem | Regras para representar estados e prioridades da operação simulada |
 | Verificação | Casos de teste e validação de cenários |
+| Gestão energética e previsão | Regressão linear, priorização de cargas e balanço de energia da Fase 3 |
 
 ## Autor
 
